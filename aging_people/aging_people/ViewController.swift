@@ -39,7 +39,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
 
         cell.textLabel?.text = people[indexPath.row]
-        cell.detailTextLabel?.text = "\(arc4random_uniform(95 - 5))"
+        cell.detailTextLabel?.text = "\(arc4random_uniform(95 - 5)) years old"
     
         cell.backgroundColor = UIColor.lightGray
 
